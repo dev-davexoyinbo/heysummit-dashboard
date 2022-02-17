@@ -307,7 +307,295 @@
         <!-- End:: summit section -->
 
         <!-- Start:: event stats section -->
-        <section class="max-w-6xl">Something here</section>
+        <section class="max-w-6xl">
+          <header class="flex items-center justify-between gap-3 mb-6">
+            <h4 class="font-medium text-purple-navy-30">Event Stats</h4>
+            <button
+              class="text-majorelle-blue bg-majorelle-blue/10 rounded-xl px-6 h-10 text-xs font-semibold mr-4"
+            >
+              <span
+                class="inline-grid grid-cols-[max-content,max-content] gap-2 items-center"
+              >
+                <span
+                  ><svg
+                    width="12"
+                    height="13"
+                    viewBox="0 0 12 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.99023 0.990916C5.81354 0.993506 5.6451 1.06614 5.52192 1.19285C5.39875 1.31957 5.33092 1.49 5.33333 1.6667V8.05732L4.47135 7.19534C4.40915 7.1314 4.33475 7.08059 4.25255 7.04593C4.17036 7.01126 4.08204 6.99344 3.99284 6.99352C3.86027 6.99368 3.73076 7.03336 3.62086 7.10749C3.51095 7.18161 3.42564 7.28682 3.37581 7.40967C3.32599 7.53252 3.31392 7.66743 3.34114 7.79717C3.36836 7.92691 3.43365 8.04559 3.52865 8.13805L5.52865 10.1381C5.65367 10.263 5.82322 10.3332 6 10.3332C6.17678 10.3332 6.34633 10.263 6.47135 10.1381L8.47135 8.13805C8.53534 8.07662 8.58642 8.00304 8.62161 7.92162C8.6568 7.8402 8.67539 7.75258 8.6763 7.66389C8.6772 7.57519 8.66039 7.48721 8.62687 7.40509C8.59334 7.32297 8.54377 7.24837 8.48105 7.18565C8.41833 7.12293 8.34372 7.07336 8.26161 7.03983C8.17949 7.0063 8.0915 6.9895 8.00281 6.9904C7.91412 6.99131 7.82649 7.0099 7.74507 7.04509C7.66366 7.08028 7.59008 7.13136 7.52865 7.19534L6.66667 8.05732V1.6667C6.66789 1.57756 6.65122 1.48908 6.61765 1.4065C6.58408 1.32392 6.53429 1.2489 6.47122 1.1859C6.40815 1.12289 6.33309 1.07318 6.25048 1.03969C6.16786 1.00619 6.07937 0.989611 5.99023 0.990916ZM2 4.6667C0.903323 4.6667 0 5.57002 0 6.6667V11C0 12.0967 0.903323 13 2 13H10C11.0967 13 12 12.0967 12 11V6.6667C12 5.57002 11.0967 4.6667 10 4.6667H9C8.91166 4.66545 8.82395 4.68177 8.74197 4.71471C8.65999 4.74765 8.58538 4.79656 8.52247 4.85859C8.45955 4.92062 8.4096 4.99454 8.3755 5.07604C8.3414 5.15755 8.32384 5.24501 8.32384 5.33336C8.32384 5.42171 8.3414 5.50918 8.3755 5.59069C8.4096 5.67219 8.45955 5.74611 8.52247 5.80814C8.58538 5.87017 8.65999 5.91908 8.74197 5.95202C8.82395 5.98496 8.91166 6.00128 9 6.00003H10C10.376 6.00003 10.6667 6.29071 10.6667 6.6667V11C10.6667 11.376 10.376 11.6667 10 11.6667H2C1.62401 11.6667 1.33333 11.376 1.33333 11V6.6667C1.33333 6.29071 1.62401 6.00003 2 6.00003H3C3.08834 6.00128 3.17605 5.98496 3.25803 5.95202C3.34001 5.91908 3.41462 5.87017 3.47753 5.80814C3.54045 5.74611 3.5904 5.67219 3.6245 5.59069C3.6586 5.50918 3.67616 5.42171 3.67616 5.33336C3.67616 5.24501 3.6586 5.15755 3.6245 5.07604C3.5904 4.99454 3.54045 4.92062 3.47753 4.85859C3.41462 4.79656 3.34001 4.74765 3.25803 4.71471C3.17605 4.68177 3.08834 4.66545 3 4.6667H2Z"
+                      fill="#6E44FF"
+                    />
+                  </svg>
+                </span>
+                Export Report
+              </span>
+            </button>
+          </header>
+
+          <div class="flex gap-12">
+            <div
+              class="flex-1 basis-[648px] grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-6"
+            >
+              <!-- Start:: start card -->
+              <article
+                class="stats-shadow bg-white rounded-[20px] px-8 py-6 relative"
+              >
+                <span
+                  class="absolute top-3 right-3 inline-grid place-items-center bg-majorelle-blue/10 mb-6 h-8 w-8 rounded-xl"
+                >
+                  <img
+                    src="{% static 'img/pie.svg' %}"
+                    alt=""
+                    height="16"
+                    width="16"
+                  />
+                </span>
+                <h3 class="text-purple-navy-30/70 font-semibold text-xs mb-2">
+                  Registrations
+                </h3>
+                <p class="text-raisin-black font-medium text-xl mb-3">3.9K</p>
+                <p class="text-xxs">
+                  <span class="text-[#27CE9C] font-bold inline-block mr-1">
+                    <svg
+                      width="12"
+                      height="8"
+                      viewBox="0 0 12 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="inline"
+                    >
+                      <path
+                        d="M6.48 0.2162C6.36192 0.0793129 6.18584 0 6 0C5.81416 0 5.63808 0.0793129 5.52 0.2162L0.120003 7.08426C-0.0163545 7.25769 -0.038288 7.48972 0.0633471 7.68362C0.164982 7.87752 0.37274 8 0.600003 8H11.4C11.6273 8 11.835 7.87752 11.9367 7.68362C12.0383 7.48972 12.0164 7.25769 11.88 7.08426L6.48 0.2162Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    +21%
+                  </span>
+                  <span class="text-purple-navy-30/70 font-medium"
+                    >since last week</span
+                  >
+                </p>
+              </article>
+              <!-- End:: start card -->
+
+              <!-- Start:: start card -->
+              <article class="stats-shadow bg-white rounded-[20px] px-8 py-6">
+                <h3 class="text-purple-navy-30/70 font-semibold text-xs mb-2">
+                  Page Views
+                </h3>
+                <p class="text-raisin-black font-medium text-xl mb-3">1.2M</p>
+                <p class="text-xxs">
+                  <span class="text-[#27CE9C] font-bold inline-block mr-1">
+                    <svg
+                      width="12"
+                      height="8"
+                      viewBox="0 0 12 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="inline"
+                    >
+                      <path
+                        d="M6.48 0.2162C6.36192 0.0793129 6.18584 0 6 0C5.81416 0 5.63808 0.0793129 5.52 0.2162L0.120003 7.08426C-0.0163545 7.25769 -0.038288 7.48972 0.0633471 7.68362C0.164982 7.87752 0.37274 8 0.600003 8H11.4C11.6273 8 11.835 7.87752 11.9367 7.68362C12.0383 7.48972 12.0164 7.25769 11.88 7.08426L6.48 0.2162Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    +21%
+                  </span>
+                  <span class="text-purple-navy-30/70 font-medium"
+                    >since last week</span
+                  >
+                </p>
+              </article>
+              <!-- End:: start card -->
+
+              <!-- Start:: start card -->
+              <article class="stats-shadow bg-white rounded-[20px] px-8 py-6">
+                <h3 class="text-purple-navy-30/70 font-semibold text-xs mb-2">
+                  Invited
+                </h3>
+                <p class="text-raisin-black font-medium text-xl mb-3">0</p>
+                <p class="text-xxs text-purple-navy-30/70 font-medium">
+                  No invites sent yet
+                </p>
+              </article>
+              <!-- End:: start card -->
+
+              <!-- Start:: start card -->
+              <article class="stats-shadow bg-white rounded-[20px] px-8 py-6">
+                <h3 class="text-purple-navy-30/70 font-semibold text-xs mb-2">
+                  Revenue
+                </h3>
+                <p class="text-raisin-black font-medium text-xl mb-3">$12.6K</p>
+                <p class="text-xxs text-purple-navy-30/70 font-medium">
+                  <span class="text-[#27CE9C] font-bold inline-block mr-1">
+                    <svg
+                      width="12"
+                      height="8"
+                      viewBox="0 0 12 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="inline"
+                    >
+                      <path
+                        d="M6.48 0.2162C6.36192 0.0793129 6.18584 0 6 0C5.81416 0 5.63808 0.0793129 5.52 0.2162L0.120003 7.08426C-0.0163545 7.25769 -0.038288 7.48972 0.0633471 7.68362C0.164982 7.87752 0.37274 8 0.600003 8H11.4C11.6273 8 11.835 7.87752 11.9367 7.68362C12.0383 7.48972 12.0164 7.25769 11.88 7.08426L6.48 0.2162Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    +11%
+                  </span>
+
+                  since last week
+                </p>
+              </article>
+              <!-- End:: start card -->
+
+              <!-- Start:: start card -->
+              <article class="stats-shadow bg-white rounded-[20px] px-8 py-6">
+                <h3 class="text-purple-navy-30/70 font-semibold text-xs mb-2">
+                  Attendees
+                </h3>
+                <p class="text-raisin-black font-medium text-xl mb-3">2.8K</p>
+                <p class="text-xxs">
+                  <span class="text-[#FF5252] font-bold inline-block mr-1">
+                    <svg
+                      width="12"
+                      height="8"
+                      viewBox="0 0 12 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="inline transform rotate-180"
+                    >
+                      <path
+                        d="M6.48 0.2162C6.36192 0.0793129 6.18584 0 6 0C5.81416 0 5.63808 0.0793129 5.52 0.2162L0.120003 7.08426C-0.0163545 7.25769 -0.038288 7.48972 0.0633471 7.68362C0.164982 7.87752 0.37274 8 0.600003 8H11.4C11.6273 8 11.835 7.87752 11.9367 7.68362C12.0383 7.48972 12.0164 7.25769 11.88 7.08426L6.48 0.2162Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    -2%
+                  </span>
+                  <span class="text-purple-navy-30/70 font-medium"
+                    >since last week</span
+                  >
+                </p>
+              </article>
+              <!-- End:: start card -->
+
+              <!-- Start:: start card -->
+              <article class="stats-shadow bg-white rounded-[20px] px-8 py-6">
+                <h3 class="text-purple-navy-30/70 font-semibold text-xs mb-2">
+                  Conversion Rate
+                </h3>
+                <p class="text-raisin-black font-medium text-xl mb-3">86%</p>
+                <p class="text-xxs text-purple-navy-30/70 font-medium">
+                  <span class="text-[#27CE9C] font-bold inline-block mr-1">
+                    <svg
+                      width="12"
+                      height="8"
+                      viewBox="0 0 12 8"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="inline"
+                    >
+                      <path
+                        d="M6.48 0.2162C6.36192 0.0793129 6.18584 0 6 0C5.81416 0 5.63808 0.0793129 5.52 0.2162L0.120003 7.08426C-0.0163545 7.25769 -0.038288 7.48972 0.0633471 7.68362C0.164982 7.87752 0.37274 8 0.600003 8H11.4C11.6273 8 11.835 7.87752 11.9367 7.68362C12.0383 7.48972 12.0164 7.25769 11.88 7.08426L6.48 0.2162Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    +5%
+                  </span>
+
+                  since last week
+                </p>
+              </article>
+              <!-- End:: start card -->
+            </div>
+            <div class="basis-[434px] flex-1">
+              <h5
+                class="flex items-center justify-between font-medium text-sm text-purple-navy-30 mb-7"
+              >
+                Top Sessions
+                <span
+                  class="grid grid-cols-[1fr,max-content] items-center text-raisin-black"
+                  >By attendance
+                  <svg
+                    width="8"
+                    height="6"
+                    viewBox="0 0 8 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="ml-1.5"
+                  >
+                    <path
+                      d="M6.85381 0.869878L3.99181 3.72694L1.12981 0.869878C0.868222 0.617666 0.452418 0.621273 0.195262 0.877985C-0.0618936 1.1347 -0.0655068 1.54978 0.187141 1.81092L3.52047 5.1385C3.78081 5.39831 4.20281 5.39831 4.46314 5.1385L7.79647 1.81092C7.96978 1.64382 8.03928 1.39638 7.97827 1.1637C7.91726 0.931014 7.73523 0.749298 7.50215 0.688393C7.26906 0.627488 7.02119 0.696872 6.85381 0.869878Z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+              </h5>
+
+              <!-- Start:: session progress -->
+              <div class="text-raisin-black mb-7">
+                <h6
+                  class="flex items-center justify-between font-medium text-xs mb-2"
+                >
+                  Keynote - The future of remote work
+                  <span class="font-normal">102</span>
+                </h6>
+                <div style="--width: 80" class="progress-bar"></div>
+              </div>
+              <!-- End:: session progress -->
+
+              <!-- Start:: session progress -->
+              <div class="text-raisin-black mb-7">
+                <h6
+                  class="flex items-center justify-between font-medium text-xs mb-2"
+                >
+                  The Remote Future is already here...
+                  <span class="font-normal">91</span>
+                </h6>
+                <div style="--width: 65" class="progress-bar"></div>
+              </div>
+              <!-- End:: session progress -->
+
+              <!-- Start:: session progress -->
+              <div class="text-raisin-black mb-7">
+                <h6
+                  class="flex items-center justify-between font-medium text-xs mb-2"
+                >
+                  Defining Careers Progression Models...
+                  <span class="font-normal">89</span>
+                </h6>
+                <div style="--width: 45" class="progress-bar"></div>
+              </div>
+              <!-- End:: session progress -->
+
+              <a
+                href="#"
+                class="text-majorelle-blue inline-flex items-center text-xs font-medium"
+                >More details
+                <svg
+                  width="16"
+                  height="8"
+                  viewBox="0 0 16 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="ml-2"
+                >
+                  <path
+                    d="M1.33329 4.66664H13.0573L10.862 6.86198C10.6016 7.12231 10.6016 7.54431 10.862 7.80465C10.9923 7.93498 11.1626 7.99998 11.3333 7.99998C11.504 7.99998 11.6743 7.93498 11.8046 7.80465L15.138 4.47131C15.263 4.34664 15.3333 4.17698 15.3333 3.99998C15.3333 3.82298 15.263 3.65364 15.138 3.52864L11.8046 0.195311C11.5443 -0.0650223 11.1223 -0.0650223 10.862 0.195311C10.6016 0.455644 10.6016 0.877644 10.862 1.13798L13.0573 3.33331H1.33329C0.965293 3.33331 0.666626 3.63198 0.666626 3.99998C0.666626 4.36798 0.965293 4.66664 1.33329 4.66664Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </section>
         <!-- End:: event stats section -->
       </main>
       <!-- End:: main content -->

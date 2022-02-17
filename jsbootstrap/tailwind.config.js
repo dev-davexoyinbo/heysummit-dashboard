@@ -5,6 +5,9 @@ module.exports = {
       screens: {
         xs: "425px",
       },
+      fontSize: {
+        xxs: ".625rem",
+      },
       colors: {
         "raisin-black": "#272838",
         "medium-aquamarina": "#27CE9C",
