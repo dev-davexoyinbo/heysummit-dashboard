@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "circle";
+
+
+:root {
+  --viewport-height: 100vh;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+body, html {
+  background: #E5E5E5;
+}
+
+
+#dashboard-container {
+  background: #FBFCFD;
+  height: var(--viewport-height, 100vh);
+  max-height: var(--viewport-height, 100vh);
+  overflow: hidden;
+  display: grid;
+  grid-template-areas: "sidenav navbar"
+  "sidenav main-content";
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: max-content 1fr;
+}
+
+#dashboard-side-nav {
+  grid-area: sidenav;
+}
+
+#dashboard-main-content {
+  grid-area: main-content;
+}
+
+#dashboard-navbar {
+  grid-area: navbar;
+}

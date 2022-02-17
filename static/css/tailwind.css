@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 /*
 ! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
@@ -423,7 +425,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
   --tw-rotate: 0;
@@ -468,15 +470,4449 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.static {
+.static{
   position: static;
 }
 
-.text-\[5rem\] {
-  font-size: 5rem;
+.flex{
+  display: flex;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+.h-12{
+  height: 3rem;
 }
+
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.overflow-y-auto{
+  overflow-y: auto;
+}
+
+.bg-green-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.bg-green-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.p-3{
+  padding: 0.75rem;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  height: calc(2px * 1);
+  width: calc(2px * 1);
+  min-height: calc(2px * 1);
+  min-width: calc(2px * 1);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-1 {
+    height: calc(2px * 1);
+    width: calc(2px * 1);
+    min-height: calc(2px * 1);
+    min-width: calc(2px * 1);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-1 {
+    height: calc(2px * 1);
+    width: calc(2px * 1);
+    min-height: calc(2px * 1);
+    min-width: calc(2px * 1);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-1 {
+    height: calc(2px * 1);
+    width: calc(2px * 1);
+    min-height: calc(2px * 1);
+    min-width: calc(2px * 1);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-1 {
+    height: calc(2px * 1);
+    width: calc(2px * 1);
+    min-height: calc(2px * 1);
+    min-width: calc(2px * 1);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-1 {
+    height: calc(2px * 1);
+    width: calc(2px * 1);
+    min-height: calc(2px * 1);
+    min-width: calc(2px * 1);
+  }
+}
+
+.circle-2 {
+  height: calc(2px * 2);
+  width: calc(2px * 2);
+  min-height: calc(2px * 2);
+  min-width: calc(2px * 2);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-2 {
+    height: calc(2px * 2);
+    width: calc(2px * 2);
+    min-height: calc(2px * 2);
+    min-width: calc(2px * 2);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-2 {
+    height: calc(2px * 2);
+    width: calc(2px * 2);
+    min-height: calc(2px * 2);
+    min-width: calc(2px * 2);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-2 {
+    height: calc(2px * 2);
+    width: calc(2px * 2);
+    min-height: calc(2px * 2);
+    min-width: calc(2px * 2);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-2 {
+    height: calc(2px * 2);
+    width: calc(2px * 2);
+    min-height: calc(2px * 2);
+    min-width: calc(2px * 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-2 {
+    height: calc(2px * 2);
+    width: calc(2px * 2);
+    min-height: calc(2px * 2);
+    min-width: calc(2px * 2);
+  }
+}
+
+.circle-3 {
+  height: calc(2px * 3);
+  width: calc(2px * 3);
+  min-height: calc(2px * 3);
+  min-width: calc(2px * 3);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-3 {
+    height: calc(2px * 3);
+    width: calc(2px * 3);
+    min-height: calc(2px * 3);
+    min-width: calc(2px * 3);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-3 {
+    height: calc(2px * 3);
+    width: calc(2px * 3);
+    min-height: calc(2px * 3);
+    min-width: calc(2px * 3);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-3 {
+    height: calc(2px * 3);
+    width: calc(2px * 3);
+    min-height: calc(2px * 3);
+    min-width: calc(2px * 3);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-3 {
+    height: calc(2px * 3);
+    width: calc(2px * 3);
+    min-height: calc(2px * 3);
+    min-width: calc(2px * 3);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-3 {
+    height: calc(2px * 3);
+    width: calc(2px * 3);
+    min-height: calc(2px * 3);
+    min-width: calc(2px * 3);
+  }
+}
+
+.circle-4 {
+  height: calc(2px * 4);
+  width: calc(2px * 4);
+  min-height: calc(2px * 4);
+  min-width: calc(2px * 4);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-4 {
+    height: calc(2px * 4);
+    width: calc(2px * 4);
+    min-height: calc(2px * 4);
+    min-width: calc(2px * 4);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-4 {
+    height: calc(2px * 4);
+    width: calc(2px * 4);
+    min-height: calc(2px * 4);
+    min-width: calc(2px * 4);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-4 {
+    height: calc(2px * 4);
+    width: calc(2px * 4);
+    min-height: calc(2px * 4);
+    min-width: calc(2px * 4);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-4 {
+    height: calc(2px * 4);
+    width: calc(2px * 4);
+    min-height: calc(2px * 4);
+    min-width: calc(2px * 4);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-4 {
+    height: calc(2px * 4);
+    width: calc(2px * 4);
+    min-height: calc(2px * 4);
+    min-width: calc(2px * 4);
+  }
+}
+
+.circle-5 {
+  height: calc(2px * 5);
+  width: calc(2px * 5);
+  min-height: calc(2px * 5);
+  min-width: calc(2px * 5);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-5 {
+    height: calc(2px * 5);
+    width: calc(2px * 5);
+    min-height: calc(2px * 5);
+    min-width: calc(2px * 5);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-5 {
+    height: calc(2px * 5);
+    width: calc(2px * 5);
+    min-height: calc(2px * 5);
+    min-width: calc(2px * 5);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-5 {
+    height: calc(2px * 5);
+    width: calc(2px * 5);
+    min-height: calc(2px * 5);
+    min-width: calc(2px * 5);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-5 {
+    height: calc(2px * 5);
+    width: calc(2px * 5);
+    min-height: calc(2px * 5);
+    min-width: calc(2px * 5);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-5 {
+    height: calc(2px * 5);
+    width: calc(2px * 5);
+    min-height: calc(2px * 5);
+    min-width: calc(2px * 5);
+  }
+}
+
+.circle-6 {
+  height: calc(2px * 6);
+  width: calc(2px * 6);
+  min-height: calc(2px * 6);
+  min-width: calc(2px * 6);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-6 {
+    height: calc(2px * 6);
+    width: calc(2px * 6);
+    min-height: calc(2px * 6);
+    min-width: calc(2px * 6);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-6 {
+    height: calc(2px * 6);
+    width: calc(2px * 6);
+    min-height: calc(2px * 6);
+    min-width: calc(2px * 6);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-6 {
+    height: calc(2px * 6);
+    width: calc(2px * 6);
+    min-height: calc(2px * 6);
+    min-width: calc(2px * 6);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-6 {
+    height: calc(2px * 6);
+    width: calc(2px * 6);
+    min-height: calc(2px * 6);
+    min-width: calc(2px * 6);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-6 {
+    height: calc(2px * 6);
+    width: calc(2px * 6);
+    min-height: calc(2px * 6);
+    min-width: calc(2px * 6);
+  }
+}
+
+.circle-7 {
+  height: calc(2px * 7);
+  width: calc(2px * 7);
+  min-height: calc(2px * 7);
+  min-width: calc(2px * 7);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-7 {
+    height: calc(2px * 7);
+    width: calc(2px * 7);
+    min-height: calc(2px * 7);
+    min-width: calc(2px * 7);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-7 {
+    height: calc(2px * 7);
+    width: calc(2px * 7);
+    min-height: calc(2px * 7);
+    min-width: calc(2px * 7);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-7 {
+    height: calc(2px * 7);
+    width: calc(2px * 7);
+    min-height: calc(2px * 7);
+    min-width: calc(2px * 7);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-7 {
+    height: calc(2px * 7);
+    width: calc(2px * 7);
+    min-height: calc(2px * 7);
+    min-width: calc(2px * 7);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-7 {
+    height: calc(2px * 7);
+    width: calc(2px * 7);
+    min-height: calc(2px * 7);
+    min-width: calc(2px * 7);
+  }
+}
+
+.circle-8 {
+  height: calc(2px * 8);
+  width: calc(2px * 8);
+  min-height: calc(2px * 8);
+  min-width: calc(2px * 8);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-8 {
+    height: calc(2px * 8);
+    width: calc(2px * 8);
+    min-height: calc(2px * 8);
+    min-width: calc(2px * 8);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-8 {
+    height: calc(2px * 8);
+    width: calc(2px * 8);
+    min-height: calc(2px * 8);
+    min-width: calc(2px * 8);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-8 {
+    height: calc(2px * 8);
+    width: calc(2px * 8);
+    min-height: calc(2px * 8);
+    min-width: calc(2px * 8);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-8 {
+    height: calc(2px * 8);
+    width: calc(2px * 8);
+    min-height: calc(2px * 8);
+    min-width: calc(2px * 8);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-8 {
+    height: calc(2px * 8);
+    width: calc(2px * 8);
+    min-height: calc(2px * 8);
+    min-width: calc(2px * 8);
+  }
+}
+
+.circle-9 {
+  height: calc(2px * 9);
+  width: calc(2px * 9);
+  min-height: calc(2px * 9);
+  min-width: calc(2px * 9);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-9 {
+    height: calc(2px * 9);
+    width: calc(2px * 9);
+    min-height: calc(2px * 9);
+    min-width: calc(2px * 9);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-9 {
+    height: calc(2px * 9);
+    width: calc(2px * 9);
+    min-height: calc(2px * 9);
+    min-width: calc(2px * 9);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-9 {
+    height: calc(2px * 9);
+    width: calc(2px * 9);
+    min-height: calc(2px * 9);
+    min-width: calc(2px * 9);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-9 {
+    height: calc(2px * 9);
+    width: calc(2px * 9);
+    min-height: calc(2px * 9);
+    min-width: calc(2px * 9);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-9 {
+    height: calc(2px * 9);
+    width: calc(2px * 9);
+    min-height: calc(2px * 9);
+    min-width: calc(2px * 9);
+  }
+}
+
+.circle-10 {
+  height: calc(2px * 10);
+  width: calc(2px * 10);
+  min-height: calc(2px * 10);
+  min-width: calc(2px * 10);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-10 {
+    height: calc(2px * 10);
+    width: calc(2px * 10);
+    min-height: calc(2px * 10);
+    min-width: calc(2px * 10);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-10 {
+    height: calc(2px * 10);
+    width: calc(2px * 10);
+    min-height: calc(2px * 10);
+    min-width: calc(2px * 10);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-10 {
+    height: calc(2px * 10);
+    width: calc(2px * 10);
+    min-height: calc(2px * 10);
+    min-width: calc(2px * 10);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-10 {
+    height: calc(2px * 10);
+    width: calc(2px * 10);
+    min-height: calc(2px * 10);
+    min-width: calc(2px * 10);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-10 {
+    height: calc(2px * 10);
+    width: calc(2px * 10);
+    min-height: calc(2px * 10);
+    min-width: calc(2px * 10);
+  }
+}
+
+.circle-11 {
+  height: calc(2px * 11);
+  width: calc(2px * 11);
+  min-height: calc(2px * 11);
+  min-width: calc(2px * 11);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-11 {
+    height: calc(2px * 11);
+    width: calc(2px * 11);
+    min-height: calc(2px * 11);
+    min-width: calc(2px * 11);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-11 {
+    height: calc(2px * 11);
+    width: calc(2px * 11);
+    min-height: calc(2px * 11);
+    min-width: calc(2px * 11);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-11 {
+    height: calc(2px * 11);
+    width: calc(2px * 11);
+    min-height: calc(2px * 11);
+    min-width: calc(2px * 11);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-11 {
+    height: calc(2px * 11);
+    width: calc(2px * 11);
+    min-height: calc(2px * 11);
+    min-width: calc(2px * 11);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-11 {
+    height: calc(2px * 11);
+    width: calc(2px * 11);
+    min-height: calc(2px * 11);
+    min-width: calc(2px * 11);
+  }
+}
+
+.circle-12 {
+  height: calc(2px * 12);
+  width: calc(2px * 12);
+  min-height: calc(2px * 12);
+  min-width: calc(2px * 12);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-12 {
+    height: calc(2px * 12);
+    width: calc(2px * 12);
+    min-height: calc(2px * 12);
+    min-width: calc(2px * 12);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-12 {
+    height: calc(2px * 12);
+    width: calc(2px * 12);
+    min-height: calc(2px * 12);
+    min-width: calc(2px * 12);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-12 {
+    height: calc(2px * 12);
+    width: calc(2px * 12);
+    min-height: calc(2px * 12);
+    min-width: calc(2px * 12);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-12 {
+    height: calc(2px * 12);
+    width: calc(2px * 12);
+    min-height: calc(2px * 12);
+    min-width: calc(2px * 12);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-12 {
+    height: calc(2px * 12);
+    width: calc(2px * 12);
+    min-height: calc(2px * 12);
+    min-width: calc(2px * 12);
+  }
+}
+
+.circle-13 {
+  height: calc(2px * 13);
+  width: calc(2px * 13);
+  min-height: calc(2px * 13);
+  min-width: calc(2px * 13);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-13 {
+    height: calc(2px * 13);
+    width: calc(2px * 13);
+    min-height: calc(2px * 13);
+    min-width: calc(2px * 13);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-13 {
+    height: calc(2px * 13);
+    width: calc(2px * 13);
+    min-height: calc(2px * 13);
+    min-width: calc(2px * 13);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-13 {
+    height: calc(2px * 13);
+    width: calc(2px * 13);
+    min-height: calc(2px * 13);
+    min-width: calc(2px * 13);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-13 {
+    height: calc(2px * 13);
+    width: calc(2px * 13);
+    min-height: calc(2px * 13);
+    min-width: calc(2px * 13);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-13 {
+    height: calc(2px * 13);
+    width: calc(2px * 13);
+    min-height: calc(2px * 13);
+    min-width: calc(2px * 13);
+  }
+}
+
+.circle-14 {
+  height: calc(2px * 14);
+  width: calc(2px * 14);
+  min-height: calc(2px * 14);
+  min-width: calc(2px * 14);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-14 {
+    height: calc(2px * 14);
+    width: calc(2px * 14);
+    min-height: calc(2px * 14);
+    min-width: calc(2px * 14);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-14 {
+    height: calc(2px * 14);
+    width: calc(2px * 14);
+    min-height: calc(2px * 14);
+    min-width: calc(2px * 14);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-14 {
+    height: calc(2px * 14);
+    width: calc(2px * 14);
+    min-height: calc(2px * 14);
+    min-width: calc(2px * 14);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-14 {
+    height: calc(2px * 14);
+    width: calc(2px * 14);
+    min-height: calc(2px * 14);
+    min-width: calc(2px * 14);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-14 {
+    height: calc(2px * 14);
+    width: calc(2px * 14);
+    min-height: calc(2px * 14);
+    min-width: calc(2px * 14);
+  }
+}
+
+.circle-15 {
+  height: calc(2px * 15);
+  width: calc(2px * 15);
+  min-height: calc(2px * 15);
+  min-width: calc(2px * 15);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-15 {
+    height: calc(2px * 15);
+    width: calc(2px * 15);
+    min-height: calc(2px * 15);
+    min-width: calc(2px * 15);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-15 {
+    height: calc(2px * 15);
+    width: calc(2px * 15);
+    min-height: calc(2px * 15);
+    min-width: calc(2px * 15);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-15 {
+    height: calc(2px * 15);
+    width: calc(2px * 15);
+    min-height: calc(2px * 15);
+    min-width: calc(2px * 15);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-15 {
+    height: calc(2px * 15);
+    width: calc(2px * 15);
+    min-height: calc(2px * 15);
+    min-width: calc(2px * 15);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-15 {
+    height: calc(2px * 15);
+    width: calc(2px * 15);
+    min-height: calc(2px * 15);
+    min-width: calc(2px * 15);
+  }
+}
+
+.circle-16 {
+  height: calc(2px * 16);
+  width: calc(2px * 16);
+  min-height: calc(2px * 16);
+  min-width: calc(2px * 16);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-16 {
+    height: calc(2px * 16);
+    width: calc(2px * 16);
+    min-height: calc(2px * 16);
+    min-width: calc(2px * 16);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-16 {
+    height: calc(2px * 16);
+    width: calc(2px * 16);
+    min-height: calc(2px * 16);
+    min-width: calc(2px * 16);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-16 {
+    height: calc(2px * 16);
+    width: calc(2px * 16);
+    min-height: calc(2px * 16);
+    min-width: calc(2px * 16);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-16 {
+    height: calc(2px * 16);
+    width: calc(2px * 16);
+    min-height: calc(2px * 16);
+    min-width: calc(2px * 16);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-16 {
+    height: calc(2px * 16);
+    width: calc(2px * 16);
+    min-height: calc(2px * 16);
+    min-width: calc(2px * 16);
+  }
+}
+
+.circle-17 {
+  height: calc(2px * 17);
+  width: calc(2px * 17);
+  min-height: calc(2px * 17);
+  min-width: calc(2px * 17);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-17 {
+    height: calc(2px * 17);
+    width: calc(2px * 17);
+    min-height: calc(2px * 17);
+    min-width: calc(2px * 17);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-17 {
+    height: calc(2px * 17);
+    width: calc(2px * 17);
+    min-height: calc(2px * 17);
+    min-width: calc(2px * 17);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-17 {
+    height: calc(2px * 17);
+    width: calc(2px * 17);
+    min-height: calc(2px * 17);
+    min-width: calc(2px * 17);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-17 {
+    height: calc(2px * 17);
+    width: calc(2px * 17);
+    min-height: calc(2px * 17);
+    min-width: calc(2px * 17);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-17 {
+    height: calc(2px * 17);
+    width: calc(2px * 17);
+    min-height: calc(2px * 17);
+    min-width: calc(2px * 17);
+  }
+}
+
+.circle-18 {
+  height: calc(2px * 18);
+  width: calc(2px * 18);
+  min-height: calc(2px * 18);
+  min-width: calc(2px * 18);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-18 {
+    height: calc(2px * 18);
+    width: calc(2px * 18);
+    min-height: calc(2px * 18);
+    min-width: calc(2px * 18);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-18 {
+    height: calc(2px * 18);
+    width: calc(2px * 18);
+    min-height: calc(2px * 18);
+    min-width: calc(2px * 18);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-18 {
+    height: calc(2px * 18);
+    width: calc(2px * 18);
+    min-height: calc(2px * 18);
+    min-width: calc(2px * 18);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-18 {
+    height: calc(2px * 18);
+    width: calc(2px * 18);
+    min-height: calc(2px * 18);
+    min-width: calc(2px * 18);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-18 {
+    height: calc(2px * 18);
+    width: calc(2px * 18);
+    min-height: calc(2px * 18);
+    min-width: calc(2px * 18);
+  }
+}
+
+.circle-19 {
+  height: calc(2px * 19);
+  width: calc(2px * 19);
+  min-height: calc(2px * 19);
+  min-width: calc(2px * 19);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-19 {
+    height: calc(2px * 19);
+    width: calc(2px * 19);
+    min-height: calc(2px * 19);
+    min-width: calc(2px * 19);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-19 {
+    height: calc(2px * 19);
+    width: calc(2px * 19);
+    min-height: calc(2px * 19);
+    min-width: calc(2px * 19);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-19 {
+    height: calc(2px * 19);
+    width: calc(2px * 19);
+    min-height: calc(2px * 19);
+    min-width: calc(2px * 19);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-19 {
+    height: calc(2px * 19);
+    width: calc(2px * 19);
+    min-height: calc(2px * 19);
+    min-width: calc(2px * 19);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-19 {
+    height: calc(2px * 19);
+    width: calc(2px * 19);
+    min-height: calc(2px * 19);
+    min-width: calc(2px * 19);
+  }
+}
+
+.circle-20 {
+  height: calc(2px * 20);
+  width: calc(2px * 20);
+  min-height: calc(2px * 20);
+  min-width: calc(2px * 20);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-20 {
+    height: calc(2px * 20);
+    width: calc(2px * 20);
+    min-height: calc(2px * 20);
+    min-width: calc(2px * 20);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-20 {
+    height: calc(2px * 20);
+    width: calc(2px * 20);
+    min-height: calc(2px * 20);
+    min-width: calc(2px * 20);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-20 {
+    height: calc(2px * 20);
+    width: calc(2px * 20);
+    min-height: calc(2px * 20);
+    min-width: calc(2px * 20);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-20 {
+    height: calc(2px * 20);
+    width: calc(2px * 20);
+    min-height: calc(2px * 20);
+    min-width: calc(2px * 20);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-20 {
+    height: calc(2px * 20);
+    width: calc(2px * 20);
+    min-height: calc(2px * 20);
+    min-width: calc(2px * 20);
+  }
+}
+
+.circle-21 {
+  height: calc(2px * 21);
+  width: calc(2px * 21);
+  min-height: calc(2px * 21);
+  min-width: calc(2px * 21);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-21 {
+    height: calc(2px * 21);
+    width: calc(2px * 21);
+    min-height: calc(2px * 21);
+    min-width: calc(2px * 21);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-21 {
+    height: calc(2px * 21);
+    width: calc(2px * 21);
+    min-height: calc(2px * 21);
+    min-width: calc(2px * 21);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-21 {
+    height: calc(2px * 21);
+    width: calc(2px * 21);
+    min-height: calc(2px * 21);
+    min-width: calc(2px * 21);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-21 {
+    height: calc(2px * 21);
+    width: calc(2px * 21);
+    min-height: calc(2px * 21);
+    min-width: calc(2px * 21);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-21 {
+    height: calc(2px * 21);
+    width: calc(2px * 21);
+    min-height: calc(2px * 21);
+    min-width: calc(2px * 21);
+  }
+}
+
+.circle-22 {
+  height: calc(2px * 22);
+  width: calc(2px * 22);
+  min-height: calc(2px * 22);
+  min-width: calc(2px * 22);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-22 {
+    height: calc(2px * 22);
+    width: calc(2px * 22);
+    min-height: calc(2px * 22);
+    min-width: calc(2px * 22);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-22 {
+    height: calc(2px * 22);
+    width: calc(2px * 22);
+    min-height: calc(2px * 22);
+    min-width: calc(2px * 22);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-22 {
+    height: calc(2px * 22);
+    width: calc(2px * 22);
+    min-height: calc(2px * 22);
+    min-width: calc(2px * 22);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-22 {
+    height: calc(2px * 22);
+    width: calc(2px * 22);
+    min-height: calc(2px * 22);
+    min-width: calc(2px * 22);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-22 {
+    height: calc(2px * 22);
+    width: calc(2px * 22);
+    min-height: calc(2px * 22);
+    min-width: calc(2px * 22);
+  }
+}
+
+.circle-23 {
+  height: calc(2px * 23);
+  width: calc(2px * 23);
+  min-height: calc(2px * 23);
+  min-width: calc(2px * 23);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-23 {
+    height: calc(2px * 23);
+    width: calc(2px * 23);
+    min-height: calc(2px * 23);
+    min-width: calc(2px * 23);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-23 {
+    height: calc(2px * 23);
+    width: calc(2px * 23);
+    min-height: calc(2px * 23);
+    min-width: calc(2px * 23);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-23 {
+    height: calc(2px * 23);
+    width: calc(2px * 23);
+    min-height: calc(2px * 23);
+    min-width: calc(2px * 23);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-23 {
+    height: calc(2px * 23);
+    width: calc(2px * 23);
+    min-height: calc(2px * 23);
+    min-width: calc(2px * 23);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-23 {
+    height: calc(2px * 23);
+    width: calc(2px * 23);
+    min-height: calc(2px * 23);
+    min-width: calc(2px * 23);
+  }
+}
+
+.circle-24 {
+  height: calc(2px * 24);
+  width: calc(2px * 24);
+  min-height: calc(2px * 24);
+  min-width: calc(2px * 24);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-24 {
+    height: calc(2px * 24);
+    width: calc(2px * 24);
+    min-height: calc(2px * 24);
+    min-width: calc(2px * 24);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-24 {
+    height: calc(2px * 24);
+    width: calc(2px * 24);
+    min-height: calc(2px * 24);
+    min-width: calc(2px * 24);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-24 {
+    height: calc(2px * 24);
+    width: calc(2px * 24);
+    min-height: calc(2px * 24);
+    min-width: calc(2px * 24);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-24 {
+    height: calc(2px * 24);
+    width: calc(2px * 24);
+    min-height: calc(2px * 24);
+    min-width: calc(2px * 24);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-24 {
+    height: calc(2px * 24);
+    width: calc(2px * 24);
+    min-height: calc(2px * 24);
+    min-width: calc(2px * 24);
+  }
+}
+
+.circle-25 {
+  height: calc(2px * 25);
+  width: calc(2px * 25);
+  min-height: calc(2px * 25);
+  min-width: calc(2px * 25);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-25 {
+    height: calc(2px * 25);
+    width: calc(2px * 25);
+    min-height: calc(2px * 25);
+    min-width: calc(2px * 25);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-25 {
+    height: calc(2px * 25);
+    width: calc(2px * 25);
+    min-height: calc(2px * 25);
+    min-width: calc(2px * 25);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-25 {
+    height: calc(2px * 25);
+    width: calc(2px * 25);
+    min-height: calc(2px * 25);
+    min-width: calc(2px * 25);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-25 {
+    height: calc(2px * 25);
+    width: calc(2px * 25);
+    min-height: calc(2px * 25);
+    min-width: calc(2px * 25);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-25 {
+    height: calc(2px * 25);
+    width: calc(2px * 25);
+    min-height: calc(2px * 25);
+    min-width: calc(2px * 25);
+  }
+}
+
+.circle-26 {
+  height: calc(2px * 26);
+  width: calc(2px * 26);
+  min-height: calc(2px * 26);
+  min-width: calc(2px * 26);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-26 {
+    height: calc(2px * 26);
+    width: calc(2px * 26);
+    min-height: calc(2px * 26);
+    min-width: calc(2px * 26);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-26 {
+    height: calc(2px * 26);
+    width: calc(2px * 26);
+    min-height: calc(2px * 26);
+    min-width: calc(2px * 26);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-26 {
+    height: calc(2px * 26);
+    width: calc(2px * 26);
+    min-height: calc(2px * 26);
+    min-width: calc(2px * 26);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-26 {
+    height: calc(2px * 26);
+    width: calc(2px * 26);
+    min-height: calc(2px * 26);
+    min-width: calc(2px * 26);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-26 {
+    height: calc(2px * 26);
+    width: calc(2px * 26);
+    min-height: calc(2px * 26);
+    min-width: calc(2px * 26);
+  }
+}
+
+.circle-27 {
+  height: calc(2px * 27);
+  width: calc(2px * 27);
+  min-height: calc(2px * 27);
+  min-width: calc(2px * 27);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-27 {
+    height: calc(2px * 27);
+    width: calc(2px * 27);
+    min-height: calc(2px * 27);
+    min-width: calc(2px * 27);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-27 {
+    height: calc(2px * 27);
+    width: calc(2px * 27);
+    min-height: calc(2px * 27);
+    min-width: calc(2px * 27);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-27 {
+    height: calc(2px * 27);
+    width: calc(2px * 27);
+    min-height: calc(2px * 27);
+    min-width: calc(2px * 27);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-27 {
+    height: calc(2px * 27);
+    width: calc(2px * 27);
+    min-height: calc(2px * 27);
+    min-width: calc(2px * 27);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-27 {
+    height: calc(2px * 27);
+    width: calc(2px * 27);
+    min-height: calc(2px * 27);
+    min-width: calc(2px * 27);
+  }
+}
+
+.circle-28 {
+  height: calc(2px * 28);
+  width: calc(2px * 28);
+  min-height: calc(2px * 28);
+  min-width: calc(2px * 28);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-28 {
+    height: calc(2px * 28);
+    width: calc(2px * 28);
+    min-height: calc(2px * 28);
+    min-width: calc(2px * 28);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-28 {
+    height: calc(2px * 28);
+    width: calc(2px * 28);
+    min-height: calc(2px * 28);
+    min-width: calc(2px * 28);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-28 {
+    height: calc(2px * 28);
+    width: calc(2px * 28);
+    min-height: calc(2px * 28);
+    min-width: calc(2px * 28);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-28 {
+    height: calc(2px * 28);
+    width: calc(2px * 28);
+    min-height: calc(2px * 28);
+    min-width: calc(2px * 28);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-28 {
+    height: calc(2px * 28);
+    width: calc(2px * 28);
+    min-height: calc(2px * 28);
+    min-width: calc(2px * 28);
+  }
+}
+
+.circle-29 {
+  height: calc(2px * 29);
+  width: calc(2px * 29);
+  min-height: calc(2px * 29);
+  min-width: calc(2px * 29);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-29 {
+    height: calc(2px * 29);
+    width: calc(2px * 29);
+    min-height: calc(2px * 29);
+    min-width: calc(2px * 29);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-29 {
+    height: calc(2px * 29);
+    width: calc(2px * 29);
+    min-height: calc(2px * 29);
+    min-width: calc(2px * 29);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-29 {
+    height: calc(2px * 29);
+    width: calc(2px * 29);
+    min-height: calc(2px * 29);
+    min-width: calc(2px * 29);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-29 {
+    height: calc(2px * 29);
+    width: calc(2px * 29);
+    min-height: calc(2px * 29);
+    min-width: calc(2px * 29);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-29 {
+    height: calc(2px * 29);
+    width: calc(2px * 29);
+    min-height: calc(2px * 29);
+    min-width: calc(2px * 29);
+  }
+}
+
+.circle-30 {
+  height: calc(2px * 30);
+  width: calc(2px * 30);
+  min-height: calc(2px * 30);
+  min-width: calc(2px * 30);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-30 {
+    height: calc(2px * 30);
+    width: calc(2px * 30);
+    min-height: calc(2px * 30);
+    min-width: calc(2px * 30);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-30 {
+    height: calc(2px * 30);
+    width: calc(2px * 30);
+    min-height: calc(2px * 30);
+    min-width: calc(2px * 30);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-30 {
+    height: calc(2px * 30);
+    width: calc(2px * 30);
+    min-height: calc(2px * 30);
+    min-width: calc(2px * 30);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-30 {
+    height: calc(2px * 30);
+    width: calc(2px * 30);
+    min-height: calc(2px * 30);
+    min-width: calc(2px * 30);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-30 {
+    height: calc(2px * 30);
+    width: calc(2px * 30);
+    min-height: calc(2px * 30);
+    min-width: calc(2px * 30);
+  }
+}
+
+.circle-31 {
+  height: calc(2px * 31);
+  width: calc(2px * 31);
+  min-height: calc(2px * 31);
+  min-width: calc(2px * 31);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-31 {
+    height: calc(2px * 31);
+    width: calc(2px * 31);
+    min-height: calc(2px * 31);
+    min-width: calc(2px * 31);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-31 {
+    height: calc(2px * 31);
+    width: calc(2px * 31);
+    min-height: calc(2px * 31);
+    min-width: calc(2px * 31);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-31 {
+    height: calc(2px * 31);
+    width: calc(2px * 31);
+    min-height: calc(2px * 31);
+    min-width: calc(2px * 31);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-31 {
+    height: calc(2px * 31);
+    width: calc(2px * 31);
+    min-height: calc(2px * 31);
+    min-width: calc(2px * 31);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-31 {
+    height: calc(2px * 31);
+    width: calc(2px * 31);
+    min-height: calc(2px * 31);
+    min-width: calc(2px * 31);
+  }
+}
+
+.circle-32 {
+  height: calc(2px * 32);
+  width: calc(2px * 32);
+  min-height: calc(2px * 32);
+  min-width: calc(2px * 32);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-32 {
+    height: calc(2px * 32);
+    width: calc(2px * 32);
+    min-height: calc(2px * 32);
+    min-width: calc(2px * 32);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-32 {
+    height: calc(2px * 32);
+    width: calc(2px * 32);
+    min-height: calc(2px * 32);
+    min-width: calc(2px * 32);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-32 {
+    height: calc(2px * 32);
+    width: calc(2px * 32);
+    min-height: calc(2px * 32);
+    min-width: calc(2px * 32);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-32 {
+    height: calc(2px * 32);
+    width: calc(2px * 32);
+    min-height: calc(2px * 32);
+    min-width: calc(2px * 32);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-32 {
+    height: calc(2px * 32);
+    width: calc(2px * 32);
+    min-height: calc(2px * 32);
+    min-width: calc(2px * 32);
+  }
+}
+
+.circle-33 {
+  height: calc(2px * 33);
+  width: calc(2px * 33);
+  min-height: calc(2px * 33);
+  min-width: calc(2px * 33);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-33 {
+    height: calc(2px * 33);
+    width: calc(2px * 33);
+    min-height: calc(2px * 33);
+    min-width: calc(2px * 33);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-33 {
+    height: calc(2px * 33);
+    width: calc(2px * 33);
+    min-height: calc(2px * 33);
+    min-width: calc(2px * 33);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-33 {
+    height: calc(2px * 33);
+    width: calc(2px * 33);
+    min-height: calc(2px * 33);
+    min-width: calc(2px * 33);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-33 {
+    height: calc(2px * 33);
+    width: calc(2px * 33);
+    min-height: calc(2px * 33);
+    min-width: calc(2px * 33);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-33 {
+    height: calc(2px * 33);
+    width: calc(2px * 33);
+    min-height: calc(2px * 33);
+    min-width: calc(2px * 33);
+  }
+}
+
+.circle-34 {
+  height: calc(2px * 34);
+  width: calc(2px * 34);
+  min-height: calc(2px * 34);
+  min-width: calc(2px * 34);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-34 {
+    height: calc(2px * 34);
+    width: calc(2px * 34);
+    min-height: calc(2px * 34);
+    min-width: calc(2px * 34);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-34 {
+    height: calc(2px * 34);
+    width: calc(2px * 34);
+    min-height: calc(2px * 34);
+    min-width: calc(2px * 34);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-34 {
+    height: calc(2px * 34);
+    width: calc(2px * 34);
+    min-height: calc(2px * 34);
+    min-width: calc(2px * 34);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-34 {
+    height: calc(2px * 34);
+    width: calc(2px * 34);
+    min-height: calc(2px * 34);
+    min-width: calc(2px * 34);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-34 {
+    height: calc(2px * 34);
+    width: calc(2px * 34);
+    min-height: calc(2px * 34);
+    min-width: calc(2px * 34);
+  }
+}
+
+.circle-35 {
+  height: calc(2px * 35);
+  width: calc(2px * 35);
+  min-height: calc(2px * 35);
+  min-width: calc(2px * 35);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-35 {
+    height: calc(2px * 35);
+    width: calc(2px * 35);
+    min-height: calc(2px * 35);
+    min-width: calc(2px * 35);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-35 {
+    height: calc(2px * 35);
+    width: calc(2px * 35);
+    min-height: calc(2px * 35);
+    min-width: calc(2px * 35);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-35 {
+    height: calc(2px * 35);
+    width: calc(2px * 35);
+    min-height: calc(2px * 35);
+    min-width: calc(2px * 35);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-35 {
+    height: calc(2px * 35);
+    width: calc(2px * 35);
+    min-height: calc(2px * 35);
+    min-width: calc(2px * 35);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-35 {
+    height: calc(2px * 35);
+    width: calc(2px * 35);
+    min-height: calc(2px * 35);
+    min-width: calc(2px * 35);
+  }
+}
+
+.circle-36 {
+  height: calc(2px * 36);
+  width: calc(2px * 36);
+  min-height: calc(2px * 36);
+  min-width: calc(2px * 36);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-36 {
+    height: calc(2px * 36);
+    width: calc(2px * 36);
+    min-height: calc(2px * 36);
+    min-width: calc(2px * 36);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-36 {
+    height: calc(2px * 36);
+    width: calc(2px * 36);
+    min-height: calc(2px * 36);
+    min-width: calc(2px * 36);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-36 {
+    height: calc(2px * 36);
+    width: calc(2px * 36);
+    min-height: calc(2px * 36);
+    min-width: calc(2px * 36);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-36 {
+    height: calc(2px * 36);
+    width: calc(2px * 36);
+    min-height: calc(2px * 36);
+    min-width: calc(2px * 36);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-36 {
+    height: calc(2px * 36);
+    width: calc(2px * 36);
+    min-height: calc(2px * 36);
+    min-width: calc(2px * 36);
+  }
+}
+
+.circle-37 {
+  height: calc(2px * 37);
+  width: calc(2px * 37);
+  min-height: calc(2px * 37);
+  min-width: calc(2px * 37);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-37 {
+    height: calc(2px * 37);
+    width: calc(2px * 37);
+    min-height: calc(2px * 37);
+    min-width: calc(2px * 37);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-37 {
+    height: calc(2px * 37);
+    width: calc(2px * 37);
+    min-height: calc(2px * 37);
+    min-width: calc(2px * 37);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-37 {
+    height: calc(2px * 37);
+    width: calc(2px * 37);
+    min-height: calc(2px * 37);
+    min-width: calc(2px * 37);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-37 {
+    height: calc(2px * 37);
+    width: calc(2px * 37);
+    min-height: calc(2px * 37);
+    min-width: calc(2px * 37);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-37 {
+    height: calc(2px * 37);
+    width: calc(2px * 37);
+    min-height: calc(2px * 37);
+    min-width: calc(2px * 37);
+  }
+}
+
+.circle-38 {
+  height: calc(2px * 38);
+  width: calc(2px * 38);
+  min-height: calc(2px * 38);
+  min-width: calc(2px * 38);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-38 {
+    height: calc(2px * 38);
+    width: calc(2px * 38);
+    min-height: calc(2px * 38);
+    min-width: calc(2px * 38);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-38 {
+    height: calc(2px * 38);
+    width: calc(2px * 38);
+    min-height: calc(2px * 38);
+    min-width: calc(2px * 38);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-38 {
+    height: calc(2px * 38);
+    width: calc(2px * 38);
+    min-height: calc(2px * 38);
+    min-width: calc(2px * 38);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-38 {
+    height: calc(2px * 38);
+    width: calc(2px * 38);
+    min-height: calc(2px * 38);
+    min-width: calc(2px * 38);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-38 {
+    height: calc(2px * 38);
+    width: calc(2px * 38);
+    min-height: calc(2px * 38);
+    min-width: calc(2px * 38);
+  }
+}
+
+.circle-39 {
+  height: calc(2px * 39);
+  width: calc(2px * 39);
+  min-height: calc(2px * 39);
+  min-width: calc(2px * 39);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-39 {
+    height: calc(2px * 39);
+    width: calc(2px * 39);
+    min-height: calc(2px * 39);
+    min-width: calc(2px * 39);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-39 {
+    height: calc(2px * 39);
+    width: calc(2px * 39);
+    min-height: calc(2px * 39);
+    min-width: calc(2px * 39);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-39 {
+    height: calc(2px * 39);
+    width: calc(2px * 39);
+    min-height: calc(2px * 39);
+    min-width: calc(2px * 39);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-39 {
+    height: calc(2px * 39);
+    width: calc(2px * 39);
+    min-height: calc(2px * 39);
+    min-width: calc(2px * 39);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-39 {
+    height: calc(2px * 39);
+    width: calc(2px * 39);
+    min-height: calc(2px * 39);
+    min-width: calc(2px * 39);
+  }
+}
+
+.circle-40 {
+  height: calc(2px * 40);
+  width: calc(2px * 40);
+  min-height: calc(2px * 40);
+  min-width: calc(2px * 40);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-40 {
+    height: calc(2px * 40);
+    width: calc(2px * 40);
+    min-height: calc(2px * 40);
+    min-width: calc(2px * 40);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-40 {
+    height: calc(2px * 40);
+    width: calc(2px * 40);
+    min-height: calc(2px * 40);
+    min-width: calc(2px * 40);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-40 {
+    height: calc(2px * 40);
+    width: calc(2px * 40);
+    min-height: calc(2px * 40);
+    min-width: calc(2px * 40);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-40 {
+    height: calc(2px * 40);
+    width: calc(2px * 40);
+    min-height: calc(2px * 40);
+    min-width: calc(2px * 40);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-40 {
+    height: calc(2px * 40);
+    width: calc(2px * 40);
+    min-height: calc(2px * 40);
+    min-width: calc(2px * 40);
+  }
+}
+
+.circle-41 {
+  height: calc(2px * 41);
+  width: calc(2px * 41);
+  min-height: calc(2px * 41);
+  min-width: calc(2px * 41);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-41 {
+    height: calc(2px * 41);
+    width: calc(2px * 41);
+    min-height: calc(2px * 41);
+    min-width: calc(2px * 41);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-41 {
+    height: calc(2px * 41);
+    width: calc(2px * 41);
+    min-height: calc(2px * 41);
+    min-width: calc(2px * 41);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-41 {
+    height: calc(2px * 41);
+    width: calc(2px * 41);
+    min-height: calc(2px * 41);
+    min-width: calc(2px * 41);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-41 {
+    height: calc(2px * 41);
+    width: calc(2px * 41);
+    min-height: calc(2px * 41);
+    min-width: calc(2px * 41);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-41 {
+    height: calc(2px * 41);
+    width: calc(2px * 41);
+    min-height: calc(2px * 41);
+    min-width: calc(2px * 41);
+  }
+}
+
+.circle-42 {
+  height: calc(2px * 42);
+  width: calc(2px * 42);
+  min-height: calc(2px * 42);
+  min-width: calc(2px * 42);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-42 {
+    height: calc(2px * 42);
+    width: calc(2px * 42);
+    min-height: calc(2px * 42);
+    min-width: calc(2px * 42);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-42 {
+    height: calc(2px * 42);
+    width: calc(2px * 42);
+    min-height: calc(2px * 42);
+    min-width: calc(2px * 42);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-42 {
+    height: calc(2px * 42);
+    width: calc(2px * 42);
+    min-height: calc(2px * 42);
+    min-width: calc(2px * 42);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-42 {
+    height: calc(2px * 42);
+    width: calc(2px * 42);
+    min-height: calc(2px * 42);
+    min-width: calc(2px * 42);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-42 {
+    height: calc(2px * 42);
+    width: calc(2px * 42);
+    min-height: calc(2px * 42);
+    min-width: calc(2px * 42);
+  }
+}
+
+.circle-43 {
+  height: calc(2px * 43);
+  width: calc(2px * 43);
+  min-height: calc(2px * 43);
+  min-width: calc(2px * 43);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-43 {
+    height: calc(2px * 43);
+    width: calc(2px * 43);
+    min-height: calc(2px * 43);
+    min-width: calc(2px * 43);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-43 {
+    height: calc(2px * 43);
+    width: calc(2px * 43);
+    min-height: calc(2px * 43);
+    min-width: calc(2px * 43);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-43 {
+    height: calc(2px * 43);
+    width: calc(2px * 43);
+    min-height: calc(2px * 43);
+    min-width: calc(2px * 43);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-43 {
+    height: calc(2px * 43);
+    width: calc(2px * 43);
+    min-height: calc(2px * 43);
+    min-width: calc(2px * 43);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-43 {
+    height: calc(2px * 43);
+    width: calc(2px * 43);
+    min-height: calc(2px * 43);
+    min-width: calc(2px * 43);
+  }
+}
+
+.circle-44 {
+  height: calc(2px * 44);
+  width: calc(2px * 44);
+  min-height: calc(2px * 44);
+  min-width: calc(2px * 44);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-44 {
+    height: calc(2px * 44);
+    width: calc(2px * 44);
+    min-height: calc(2px * 44);
+    min-width: calc(2px * 44);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-44 {
+    height: calc(2px * 44);
+    width: calc(2px * 44);
+    min-height: calc(2px * 44);
+    min-width: calc(2px * 44);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-44 {
+    height: calc(2px * 44);
+    width: calc(2px * 44);
+    min-height: calc(2px * 44);
+    min-width: calc(2px * 44);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-44 {
+    height: calc(2px * 44);
+    width: calc(2px * 44);
+    min-height: calc(2px * 44);
+    min-width: calc(2px * 44);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-44 {
+    height: calc(2px * 44);
+    width: calc(2px * 44);
+    min-height: calc(2px * 44);
+    min-width: calc(2px * 44);
+  }
+}
+
+.circle-45 {
+  height: calc(2px * 45);
+  width: calc(2px * 45);
+  min-height: calc(2px * 45);
+  min-width: calc(2px * 45);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-45 {
+    height: calc(2px * 45);
+    width: calc(2px * 45);
+    min-height: calc(2px * 45);
+    min-width: calc(2px * 45);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-45 {
+    height: calc(2px * 45);
+    width: calc(2px * 45);
+    min-height: calc(2px * 45);
+    min-width: calc(2px * 45);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-45 {
+    height: calc(2px * 45);
+    width: calc(2px * 45);
+    min-height: calc(2px * 45);
+    min-width: calc(2px * 45);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-45 {
+    height: calc(2px * 45);
+    width: calc(2px * 45);
+    min-height: calc(2px * 45);
+    min-width: calc(2px * 45);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-45 {
+    height: calc(2px * 45);
+    width: calc(2px * 45);
+    min-height: calc(2px * 45);
+    min-width: calc(2px * 45);
+  }
+}
+
+.circle-46 {
+  height: calc(2px * 46);
+  width: calc(2px * 46);
+  min-height: calc(2px * 46);
+  min-width: calc(2px * 46);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-46 {
+    height: calc(2px * 46);
+    width: calc(2px * 46);
+    min-height: calc(2px * 46);
+    min-width: calc(2px * 46);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-46 {
+    height: calc(2px * 46);
+    width: calc(2px * 46);
+    min-height: calc(2px * 46);
+    min-width: calc(2px * 46);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-46 {
+    height: calc(2px * 46);
+    width: calc(2px * 46);
+    min-height: calc(2px * 46);
+    min-width: calc(2px * 46);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-46 {
+    height: calc(2px * 46);
+    width: calc(2px * 46);
+    min-height: calc(2px * 46);
+    min-width: calc(2px * 46);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-46 {
+    height: calc(2px * 46);
+    width: calc(2px * 46);
+    min-height: calc(2px * 46);
+    min-width: calc(2px * 46);
+  }
+}
+
+.circle-47 {
+  height: calc(2px * 47);
+  width: calc(2px * 47);
+  min-height: calc(2px * 47);
+  min-width: calc(2px * 47);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-47 {
+    height: calc(2px * 47);
+    width: calc(2px * 47);
+    min-height: calc(2px * 47);
+    min-width: calc(2px * 47);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-47 {
+    height: calc(2px * 47);
+    width: calc(2px * 47);
+    min-height: calc(2px * 47);
+    min-width: calc(2px * 47);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-47 {
+    height: calc(2px * 47);
+    width: calc(2px * 47);
+    min-height: calc(2px * 47);
+    min-width: calc(2px * 47);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-47 {
+    height: calc(2px * 47);
+    width: calc(2px * 47);
+    min-height: calc(2px * 47);
+    min-width: calc(2px * 47);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-47 {
+    height: calc(2px * 47);
+    width: calc(2px * 47);
+    min-height: calc(2px * 47);
+    min-width: calc(2px * 47);
+  }
+}
+
+.circle-48 {
+  height: calc(2px * 48);
+  width: calc(2px * 48);
+  min-height: calc(2px * 48);
+  min-width: calc(2px * 48);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-48 {
+    height: calc(2px * 48);
+    width: calc(2px * 48);
+    min-height: calc(2px * 48);
+    min-width: calc(2px * 48);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-48 {
+    height: calc(2px * 48);
+    width: calc(2px * 48);
+    min-height: calc(2px * 48);
+    min-width: calc(2px * 48);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-48 {
+    height: calc(2px * 48);
+    width: calc(2px * 48);
+    min-height: calc(2px * 48);
+    min-width: calc(2px * 48);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-48 {
+    height: calc(2px * 48);
+    width: calc(2px * 48);
+    min-height: calc(2px * 48);
+    min-width: calc(2px * 48);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-48 {
+    height: calc(2px * 48);
+    width: calc(2px * 48);
+    min-height: calc(2px * 48);
+    min-width: calc(2px * 48);
+  }
+}
+
+.circle-49 {
+  height: calc(2px * 49);
+  width: calc(2px * 49);
+  min-height: calc(2px * 49);
+  min-width: calc(2px * 49);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-49 {
+    height: calc(2px * 49);
+    width: calc(2px * 49);
+    min-height: calc(2px * 49);
+    min-width: calc(2px * 49);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-49 {
+    height: calc(2px * 49);
+    width: calc(2px * 49);
+    min-height: calc(2px * 49);
+    min-width: calc(2px * 49);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-49 {
+    height: calc(2px * 49);
+    width: calc(2px * 49);
+    min-height: calc(2px * 49);
+    min-width: calc(2px * 49);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-49 {
+    height: calc(2px * 49);
+    width: calc(2px * 49);
+    min-height: calc(2px * 49);
+    min-width: calc(2px * 49);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-49 {
+    height: calc(2px * 49);
+    width: calc(2px * 49);
+    min-height: calc(2px * 49);
+    min-width: calc(2px * 49);
+  }
+}
+
+.circle-50 {
+  height: calc(2px * 50);
+  width: calc(2px * 50);
+  min-height: calc(2px * 50);
+  min-width: calc(2px * 50);
+}
+
+@media screen and (min-width: 425px) {
+  .xs\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xs\:circle-50 {
+    height: calc(2px * 50);
+    width: calc(2px * 50);
+    min-height: calc(2px * 50);
+    min-width: calc(2px * 50);
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .sm\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .sm\:circle-50 {
+    height: calc(2px * 50);
+    width: calc(2px * 50);
+    min-height: calc(2px * 50);
+    min-width: calc(2px * 50);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .md\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .md\:circle-50 {
+    height: calc(2px * 50);
+    width: calc(2px * 50);
+    min-height: calc(2px * 50);
+    min-width: calc(2px * 50);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lg\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .lg\:circle-50 {
+    height: calc(2px * 50);
+    width: calc(2px * 50);
+    min-height: calc(2px * 50);
+    min-width: calc(2px * 50);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .xl\:circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+
+  .xl\:circle-50 {
+    height: calc(2px * 50);
+    width: calc(2px * 50);
+    min-height: calc(2px * 50);
+    min-width: calc(2px * 50);
+  }
+}
+
+:root {
+  --viewport-height: 100vh;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body, html {
+  background: #E5E5E5;
+}
+
+#dashboard-container {
+  background: #FBFCFD;
+  height: var(--viewport-height, 100vh);
+  max-height: var(--viewport-height, 100vh);
+  overflow: hidden;
+  display: grid;
+  grid-template-areas: "sidenav navbar" "sidenav main-content";
+  grid-template-columns: -webkit-max-content 1fr;
+  grid-template-columns: max-content 1fr;
+  grid-template-rows: -webkit-max-content 1fr;
+  grid-template-rows: max-content 1fr;
+}
+
+#dashboard-side-nav {
+  grid-area: sidenav;
+}
+
+#dashboard-main-content {
+  grid-area: main-content;
+}
+
+#dashboard-navbar {
+  grid-area: navbar;
+}
+
+/*# sourceMappingURL=tailwind.css.map */

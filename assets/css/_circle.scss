@@ -1,0 +1,39 @@
+$screens: 'xs', 'sm', 'md', 'lg', 'xl';
+
+@mixin circle-content($size) {
+  $t: calc(2px * #{$size});
+  height: $t;
+  width: $t;
+  min-height: $t;
+  min-width: $t;
+}
+
+@mixin circle-parent-content() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.circle {
+  @include circle-parent-content();
+}
+
+@for $i from 1 through 50 {
+  .circle-#{$i} {
+    @include circle-content($i);
+  }
+
+  @each $screen in $screens {
+    .#{$screen}\:circle {
+      @media screen and (min-width: theme('screens.' + #{$screen})) {
+        @include circle-parent-content();
+      }
+    }
+    .#{$screen}\:circle-#{$i} {
+      @media screen and (min-width: theme('screens.' + #{$screen})) {
+        @include circle-content($i);
+      }
+    }
+  }
+}
