@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "cross-env sass ../assets/css/tailwind.scss ./dist/tailwind-build.css & cross-env NODE_ENV=development tailwindcss --postcss -i ./dist/tailwind-build.css -o ../static/css/tailwind.css --watch"
+    "dev:sass": "cross-env sass --watch ../assets/css/tailwind.scss ./dist/tailwind-build.css",
+    "dev:tailwind": "cross-env NODE_ENV=development tailwindcss --postcss -i ./dist/tailwind-build.css -o ../static/css/tailwind.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

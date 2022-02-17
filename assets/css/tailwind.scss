@@ -43,3 +43,21 @@ body, html {
 #dashboard-navbar {
   grid-area: navbar;
 }
+
+.nav-tab-link {
+   @apply inline-block px-1 pb-5 pt-2 border-b-[3px] border-transparent text-purple-navy-30/70 font-medium transition;
+   &:not(:first-child) {
+     @apply ml-8;
+   }
+   &:hover {
+     @apply text-raisin-black border-brink-pink/30;
+   }
+
+   &.active {
+    @apply text-raisin-black border-brink-pink relative;
+    &::after {
+      content: '';
+      @apply h-2 w-2 block absolute top-2 right-0 transform translate-x-1/2 -translate-y-1/2 bg-brink-pink rounded-full;
+    }
+   }
+}
