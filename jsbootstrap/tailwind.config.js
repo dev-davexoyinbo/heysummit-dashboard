@@ -1,7 +1,11 @@
 module.exports = {
   content: ["../**/template/**/*.{html,js,css}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xs: "425px",
+      },
+    },
   },
   plugins: [],
 };

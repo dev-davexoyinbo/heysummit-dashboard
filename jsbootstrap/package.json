@@ -1,10 +1,15 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ../assets/css/tailwind.css -o ../static/css/tailwind.css --watch"
+    "dev": "cross-env sass ../assets/css/tailwind.scss ./dist/tailwind-build.css & cross-env NODE_ENV=development tailwindcss --postcss -i ./dist/tailwind-build.css -o ../static/css/tailwind.css --watch"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
+    "cross-env": "^7.0.3",
     "postcss": "^8.4.6",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-nesting": "^10.1.2",
+    "postcss-scss": "^4.0.3",
     "tailwindcss": "^3.0.23"
   }
 }
