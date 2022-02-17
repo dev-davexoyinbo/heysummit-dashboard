@@ -5,6 +5,8 @@
 @tailwind utilities;
 
 @import "circle";
+@import "scrollbar";
+@import "table";
 
 
 :root {
@@ -59,5 +61,31 @@ body, html {
       content: '';
       @apply h-2 w-2 block absolute top-2 right-0 transform translate-x-1/2 -translate-y-1/2 bg-brink-pink rounded-full;
     }
+   }
+}
+
+.presenter-img-container {
+  @apply inline-flex;
+}
+
+.presenter-img {
+  // from ./_circle.scss
+  @include circle-parent-content();
+  // from ./_circle.scss
+   @include circle-content(13);
+
+   @apply text-[8px] bg-purple-navy-30 text-white border-2 border-white object-cover font-bold cursor-pointer;
+
+   &:not(:first-child){
+     @apply -ml-2.5;
+   }
+
+   &:hover {
+     @apply relative;
+   }
+
+   &.n-remaining {
+     @apply rounded-full px-1.5 bg-[#EDEAFD] text-majorelle-blue font-semibold;
+     width: unset;
    }
 }

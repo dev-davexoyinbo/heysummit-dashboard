@@ -1,0 +1,18 @@
+.custom-table {
+  @apply text-xs text-raisin-black text-left font-medium;
+
+  td, th {
+    @apply py-[7px] px-2;
+    &:first-child{
+      @apply pl-0;
+    }
+    &:last-child {
+      @apply pr-0;
+    }
+  }
+
+  th {
+    @apply text-purple-navy-30/70 font-semibold;
+  }
+
+}
