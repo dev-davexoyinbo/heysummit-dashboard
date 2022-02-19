@@ -16,7 +16,7 @@
       <!-- Start:: side navigation -->
       <aside
         id="dashboard-side-nav"
-        class="p-3 flex flex-col items-center justify-between border-r border-purple-navy-30/10 bg-white"
+        class="p-3 hidden xs:flex flex-col items-center justify-between border-r border-purple-navy-30/10 bg-white"
       >
         <div class="flex flex-col items-center">
           <!-- Logo -->
@@ -61,6 +61,7 @@
 
       <!-- Start:: navbar -->
       <nav
+        id="dashboard-navbar"
         class="px-8 text-raisin-black bg-white border-b border-purple-navy-30/10"
       >
         <!-- start::navbar top -->
@@ -76,9 +77,11 @@
                 alt=""
               />
             </span>
-            <p class="mr-5 font-medium">Passion Economy 2021</p>
+            <p class="mr-5 font-medium hidden lg:inline">
+              Passion Economy 2021
+            </p>
             <!-- Arrow down Icon -->
-            <p class="mr-5">
+            <p class="mr-5 hidden lg:inline">
               <svg
                 width="12"
                 height="8"
@@ -94,7 +97,7 @@
             </p>
 
             <!-- Ellipsis icon -->
-            <p>
+            <p class="hidden lg:inline">
               <svg
                 width="16"
                 height="4"
@@ -110,7 +113,9 @@
             </p>
           </div>
           <div class="flex items-center">
-            <div class="inline-grid grid-cols-3 gap-3.5 relative mr-3">
+            <div
+              class="hidden md:inline-grid grid-cols-3 gap-3.5 relative mr-3"
+            >
               <!-- middle line -->
               <div
                 class="absolute left-1.5 right-1.5 top-1/2 transform -translate-y-1/2 border-b border-dashed border-purple-navy-30/30"
@@ -125,14 +130,16 @@
                 class="circle circle-6 bg-white border border-purple-navy-30/30 relative"
               ></span>
             </div>
-            <p class="text-purple-navy-80/80 text-sm mr-10">Planning</p>
+            <p class="hidden md:inline text-purple-navy-80/80 text-sm mr-10">
+              Planning
+            </p>
             <button
-              class="text-majorelle-blue bg-majorelle-blue/10 rounded-xl px-6 h-12 text-sm font-semibold mr-4"
+              class="text-majorelle-blue bg-majorelle-blue/10 rounded-xl px-6 h-12 text-sm font-semibold"
             >
               Publish
             </button>
             <button
-              class="text-white bg-majorelle-blue rounded-xl px-6 h-12 text-sm font-semibold"
+              class="hidden sm:inline-block text-white bg-majorelle-blue rounded-xl px-6 h-12 text-sm font-semibold ml-4"
             >
               <span
                 class="inline-grid grid-cols-[max-content,max-content] gap-2 items-center"
@@ -159,7 +166,7 @@
         <!-- end::navbar top -->
 
         <!-- start::navbar bottom -->
-        <div>
+        <div class="flex overflow-x-auto max-w-full custom-scrollbar">
           <a href="#" class="nav-tab-link active"> Overview </a>
           <a href="#" class="nav-tab-link"> People </a>
           <a href="#" class="nav-tab-link"> Agenda </a>
@@ -174,14 +181,14 @@
       <!-- Start:: main content -->
       <main
         id="dashboard-main-content"
-        class="bg-[#FBFCFD] overflow-y-auto custom-scrollbar p-8"
+        class="bg-[#FBFCFD] overflow-y-auto custom-scrollbar px-4 sm:px-6 py-8 !pb-16"
       >
         <!-- Start:: summit section -->
         <section
-          class="max-w-6xl border border-purple-navy-30/10 rounded-[20px] grid grid-cols-[max-content,1fr] gap-6 p-6 mb-12"
+          class="max-w-6xl border border-purple-navy-30/10 rounded-[20px] md:grid grid-cols-[max-content,minmax(0,1fr)] gap-6 p-6 mb-12"
         >
           <span
-            class="inline-grid place-items-center bg-[#FF5280]/10 h-10 w-10 rounded-xl"
+            class="hidden md:inline-grid place-items-center bg-[#FF5280]/10 h-10 w-10 min-w-[40px] rounded-xl"
           >
             <img
               src="{% static 'img/live-video-on.svg' %}"
@@ -191,14 +198,16 @@
             />
           </span>
           <div>
-            <div class="flex items-center justify-between gap-3 mb-8">
+            <div
+              class="grid grid-cols-1 md:grid-cols-[1fr,max-content] items-center justify-between gap-3 mb-8"
+            >
               <div class="font-semibold">
                 <p class="text-xs text-purple-navy-30/70 mb-0.5">Summit</p>
                 <h4 class="text-lg text-raisin-black">Passion Economy 2021</h4>
               </div>
-              <div>
+              <div class="inline-flex gap-4 flex-wrap">
                 <button
-                  class="text-majorelle-blue bg-majorelle-blue/10 rounded-xl px-6 h-10 text-xs font-semibold mr-4"
+                  class="text-majorelle-blue bg-majorelle-blue/10 rounded-xl px-6 h-10 text-xs font-semibold"
                 >
                   <span
                     class="inline-grid grid-cols-[max-content,max-content] gap-2 items-center"
@@ -246,8 +255,8 @@
               </div>
             </div>
 
-            <div>
-              <table class="w-full max-w-3xl custom-table">
+            <div class="overflow-x-auto custom-scrollbar">
+              <table class="w-full max-w-3xl custom-table whitespace-nowrap">
                 <thead>
                   <tr>
                     <th>Event Stats</th>
@@ -337,7 +346,7 @@
             </button>
           </header>
 
-          <div class="flex gap-12">
+          <div class="md:flex gap-12">
             <div
               class="flex-1 basis-[648px] grid grid-cols-[repeat(auto-fit,minmax(150px,1fr))] gap-6"
             >
@@ -517,7 +526,7 @@
               </article>
               <!-- End:: start card -->
             </div>
-            <div class="basis-[434px] flex-1">
+            <div class="basis-[434px] flex-1 mt-12 md:mt-0">
               <h5
                 class="flex items-center justify-between font-medium text-sm text-purple-navy-30 mb-7"
               >

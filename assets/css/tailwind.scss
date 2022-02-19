@@ -30,8 +30,8 @@ body, html {
   display: grid;
   grid-template-areas: "sidenav navbar"
   "sidenav main-content";
-  grid-template-columns: max-content 1fr;
-  grid-template-rows: max-content 1fr;
+  grid-template-columns: max-content minmax(0, 1fr);
+  grid-template-rows: max-content minmax(0, 1fr);
 }
 
 #dashboard-side-nav {
@@ -47,7 +47,7 @@ body, html {
 }
 
 .nav-tab-link {
-   @apply inline-block px-1 pb-5 pt-2 border-b-[3px] border-transparent text-purple-navy-30/70 font-medium transition;
+   @apply text-sm sm:text-base inline-block px-1 pb-5 pt-2 border-b-[3px] border-transparent text-purple-navy-30/70 font-medium transition;
    &:not(:first-child) {
      @apply ml-8;
    }
